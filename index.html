@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <title>Travel World! Tham quan thế giới trên thiết bị thông minh</title>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Travel World</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="dropdown"><a class="dropdow-toggle" data-toggle="dropdown" href="#">Danh Mục <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="Html/amsterdam.html">Amsterdam</a></li>
+              <li><a href="Html/london.html">London</a></li>
+              <li><a href="Html/new-york.html">New York</a></li>
+              <li><a href="Html/paris.html">Paris</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Book Vé</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+    </nav>
+  </div>
+  <!-- Banner -->
+  <div id="banner" class="container"> 
+      <img src="Image/banner.jpg" alt="Banner The World">
+  </div> 
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center">Tham quan thế giới online</h1>     
+      <p>Travel World giúp bạn tìm hiểu trước các thành phố đẹp trên thế giới về vị trí địa lý, văn hóa, ẩm thực, phong cảnh, con người. Giúp bạn nắm được các thông tin cần thiết trước khi đến tận nơi.</p>
+    </div>
+  </div>
+
+  <!-- Main -->
+  <div id="main" class="container">
+      <h4 class="text-center" style="font-style:italic">Click on each photo to see more details</h4>
+      <div class="row">
+        <div class="col-lg-6 col-sm-6">
+          <div class="thumbnail">
+            <a href="Html/amsterdam.html"><img src="Image/amsterdam.jpg"></a>
+            <div class="caption text-center">
+              <h4><strong>Amsterdam</strong></h4>
+            </div>
+          </div>
+          <div class="thumbnail">
+            <a href="Html/london.html"><img src="Image/london.jpg"></a>
+            <div class="caption text-center">
+              <h4><strong>London</strong></h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-6">
+          <div class="thumbnail">
+            <a href="Html/new-york.html"><img src="Image/new-york.jpg"></a>
+            <div class="caption text-center">
+              <h4><strong>New York</strong></h4>
+            </div>
+          </div>
+          <div class="thumbnail">
+            <a href="Html/paris.html"><img src="Image/paris.jpg"></a>
+            <div class="caption text-center">
+              <h4><strong>Paris</strong></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer" class="container bg-footer">
+    <h2 class="text-center">CONTACT</h2>
+    <div class="row">
+      <div class="col-lg-5 col-sm-5">
+        <p>Thông tin liên hệ</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span>Hà Nội, Việt Nam</p>
+        <p><span class="glyphicon glyphicon-phone"></span> +84 988 528 479</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> bacphfx16330@funix.edu.vn</p>
+      </div>
+      <div class="col-lg-7 col-sm-7">
+        <div class="row">
+          <div class="col-lg-6 col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </div>
+          <div class="col-lg-6 col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </div>
+        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 form-group">
+            <button class="btn btn-default pull-right" type="submit">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

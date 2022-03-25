@@ -1,0 +1,38 @@
+* {
+    box-sizing:border-box;
+}
+img {
+    width: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    color: red;
+    font-size: 150%;
+}
+
+#banner {
+    margin-top: -10%;
+}
+.thumbnail {
+    border: 2px solid gray;
+    padding: 5%;
+    margin: 5% 10% 15%;
+}
+#footer {
+    padding-bottom: 30px;
+}
+.bg-footer {
+    background-color: lightcyan;
+}
+
+#content img {
+        display: block;
+        margin-top: -10%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+}
